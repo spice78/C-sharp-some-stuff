@@ -1,13 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+using Button_Jmyak;
 
-namespace ConsoleApp2
+
+namespace OurFirstVisualApplication
 {
-    class Program
+    static class Program
     {
+        [STAThread]
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, C#!");
-            Console.ReadLine();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Button_Jmyak.Button_Jmyak());            
         }
     }
 }
