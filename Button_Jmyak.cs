@@ -54,6 +54,6 @@ namespace Button_Jmyak
         private void Jmyak_Uno_il_pulsante_Click(object sender, EventArgs e)
         {
             controlle_list.Items.Add("nuovo articolo", true);
-        }
+        }        
     }
 }

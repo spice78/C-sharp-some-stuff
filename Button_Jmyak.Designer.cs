@@ -41,17 +41,17 @@ namespace Button_Jmyak
             // 
             this.Jmyak_il_pulsante.BackColor = System.Drawing.Color.Transparent;
             this.Jmyak_il_pulsante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Jmyak_il_pulsante.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Jmyak_il_pulsante.FlatAppearance.BorderColor = System.Drawing.Color.LightBlue;
             this.Jmyak_il_pulsante.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Jmyak_il_pulsante.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Jmyak_il_pulsante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Jmyak_il_pulsante.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Jmyak_il_pulsante.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Jmyak_il_pulsante.Location = new System.Drawing.Point(50, 377);
+            this.Jmyak_il_pulsante.Location = new System.Drawing.Point(45, 10);
             this.Jmyak_il_pulsante.Margin = new System.Windows.Forms.Padding(1);
             this.Jmyak_il_pulsante.Name = "Jmyak_il_pulsante";
             this.Jmyak_il_pulsante.Padding = new System.Windows.Forms.Padding(5);
-            this.Jmyak_il_pulsante.Size = new System.Drawing.Size(112, 51);
+            this.Jmyak_il_pulsante.Size = new System.Drawing.Size(165, 50);
             this.Jmyak_il_pulsante.TabIndex = 0;
             this.Jmyak_il_pulsante.Text = "Jmyak";
             this.Jmyak_il_pulsante.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -69,7 +69,7 @@ namespace Button_Jmyak
             this.Inserite_il_vostro_testo.Location = new System.Drawing.Point(0, 444);
             this.Inserite_il_vostro_testo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Inserite_il_vostro_testo.Name = "Inserite_il_vostro_testo";
-            this.Inserite_il_vostro_testo.Size = new System.Drawing.Size(596, 22);
+            this.Inserite_il_vostro_testo.Size = new System.Drawing.Size(647, 22);
             this.Inserite_il_vostro_testo.TabIndex = 2;
             // 
             // Controllare_Box
@@ -77,7 +77,7 @@ namespace Button_Jmyak
             this.Controllare_Box.AutoSize = true;
             this.Controllare_Box.BackColor = System.Drawing.Color.Transparent;
             this.Controllare_Box.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Controllare_Box.Location = new System.Drawing.Point(50, 294);
+            this.Controllare_Box.Location = new System.Drawing.Point(50, 379);
             this.Controllare_Box.Name = "Controllare_Box";
             this.Controllare_Box.Size = new System.Drawing.Size(107, 26);
             this.Controllare_Box.TabIndex = 3;
@@ -88,7 +88,8 @@ namespace Button_Jmyak
             // controlle_list
             // 
             this.controlle_list.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.controlle_list.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.controlle_list.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.controlle_list.Dock = System.Windows.Forms.DockStyle.Right;
             this.controlle_list.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.controlle_list.FormattingEnabled = true;
             this.controlle_list.Items.AddRange(new object[] {
@@ -96,9 +97,9 @@ namespace Button_Jmyak
             "articolo due",
             "articolo tre",
             "articolo quattro"});
-            this.controlle_list.Location = new System.Drawing.Point(358, 12);
+            this.controlle_list.Location = new System.Drawing.Point(497, 0);
             this.controlle_list.Name = "controlle_list";
-            this.controlle_list.Size = new System.Drawing.Size(226, 92);
+            this.controlle_list.Size = new System.Drawing.Size(150, 444);
             this.controlle_list.TabIndex = 4;
             this.controlle_list.SelectedIndexChanged += new System.EventHandler(this.controlle_list_SelectedIndexChanged);
             // 
@@ -106,15 +107,15 @@ namespace Button_Jmyak
             // 
             this.Jmyak_Due_il_pulsante.BackColor = System.Drawing.Color.Transparent;
             this.Jmyak_Due_il_pulsante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Jmyak_Due_il_pulsante.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Jmyak_Due_il_pulsante.FlatAppearance.BorderColor = System.Drawing.Color.LightBlue;
             this.Jmyak_Due_il_pulsante.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Jmyak_Due_il_pulsante.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Jmyak_Due_il_pulsante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Jmyak_Due_il_pulsante.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Jmyak_Due_il_pulsante.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Jmyak_Due_il_pulsante.Location = new System.Drawing.Point(433, 377);
+            this.Jmyak_Due_il_pulsante.Location = new System.Drawing.Point(45, 151);
             this.Jmyak_Due_il_pulsante.Name = "Jmyak_Due_il_pulsante";
-            this.Jmyak_Due_il_pulsante.Size = new System.Drawing.Size(138, 51);
+            this.Jmyak_Due_il_pulsante.Size = new System.Drawing.Size(165, 50);
             this.Jmyak_Due_il_pulsante.TabIndex = 5;
             this.Jmyak_Due_il_pulsante.Text = "Jmyak Due";
             this.Jmyak_Due_il_pulsante.UseVisualStyleBackColor = false;
@@ -124,17 +125,17 @@ namespace Button_Jmyak
             // 
             this.Jmyak_Uno_il_pulsante.BackColor = System.Drawing.Color.Transparent;
             this.Jmyak_Uno_il_pulsante.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Jmyak_Uno_il_pulsante.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Jmyak_Uno_il_pulsante.FlatAppearance.BorderColor = System.Drawing.Color.LightBlue;
             this.Jmyak_Uno_il_pulsante.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.Jmyak_Uno_il_pulsante.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.Jmyak_Uno_il_pulsante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Jmyak_Uno_il_pulsante.Font = new System.Drawing.Font("Comic Sans MS", 16F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Jmyak_Uno_il_pulsante.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.Jmyak_Uno_il_pulsante.Location = new System.Drawing.Point(178, 377);
+            this.Jmyak_Uno_il_pulsante.Location = new System.Drawing.Point(45, 79);
             this.Jmyak_Uno_il_pulsante.Margin = new System.Windows.Forms.Padding(1);
             this.Jmyak_Uno_il_pulsante.Name = "Jmyak_Uno_il_pulsante";
             this.Jmyak_Uno_il_pulsante.Padding = new System.Windows.Forms.Padding(5);
-            this.Jmyak_Uno_il_pulsante.Size = new System.Drawing.Size(163, 51);
+            this.Jmyak_Uno_il_pulsante.Size = new System.Drawing.Size(165, 50);
             this.Jmyak_Uno_il_pulsante.TabIndex = 6;
             this.Jmyak_Uno_il_pulsante.Text = "Jmyak Uno";
             this.Jmyak_Uno_il_pulsante.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -149,7 +150,7 @@ namespace Button_Jmyak
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.BackgroundImage = global::Button_Jmyak.Properties.Resources.JasonKirk_BPAE;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(596, 466);
+            this.ClientSize = new System.Drawing.Size(647, 466);
             this.Controls.Add(this.Jmyak_Uno_il_pulsante);
             this.Controls.Add(this.Jmyak_Due_il_pulsante);
             this.Controls.Add(this.controlle_list);
