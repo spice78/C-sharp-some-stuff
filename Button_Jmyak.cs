@@ -24,7 +24,8 @@ namespace Button_Jmyak
         {
             DateTimePicker dateTimePick = new DateTimePicker();
             DateTime dt = dateTimePick.Value;
-            MessageBox.Show(dt.ToString());
+            string sDt = Convert.ToString(dt);
+            MessageBox.Show(sDt);
         }
 
         private void controlle_CheckedChanged(object sender, EventArgs e)
